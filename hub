@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Landing Page de Videojuegos</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a nuestra tienda de videojuegos</h1>
+    <p>Explora nuestra amplia selección de videojuegos y encuentra tus favoritos</p>
+  </header>
+
+  <section>
+    <h2>Destacados</h2>
+    <div class="game-list">
+      <div class="game">
+        <img src="game1.jpg" alt="Juego 1">
+        <h3>Juego 1</h3>
+        <p>Descripción del juego 1</p>
+        <a href="#">Ver más</a>
+      </div>
+      <div class="game">
+        <img src="game2.jpg" alt="Juego 2">
+        <h3>Juego 2</h3>
+        <p>Descripción del juego 2</p>
+        <a href="#">Ver más</a>
+      </div>
+      <!-- Agrega más juegos aquí -->
+    </div>
+  </section>
+
+  <section>
+    <h2>Categorías</h2>
+    <ul class="category-list">
+      <li><a href="#">Acción</a></li>
+      <li><a href="#">Aventura</a></li>
+      <li><a href="#">Estrategia</a></li>
+      <li><a href="#">Deportes</a></li>
+      <!-- Agrega más categorías aquí -->
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Nuestra Tienda de Videojuegos. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
